@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28E6E7CC8BFDD5A84BE4DB8E /* Pods_TurnTABle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C09569E9204A9B644C94AB /* Pods_TurnTABle.framework */; };
 		77082A13213F8C7F007FE0FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77082A12213F8C7F007FE0FD /* AppDelegate.swift */; };
 		77082A15213F8C7F007FE0FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77082A14213F8C7F007FE0FD /* ViewController.swift */; };
 		77082A18213F8C7F007FE0FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77082A16213F8C7F007FE0FD /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		77082A1D213F8C81007FE0FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77082A1B213F8C81007FE0FD /* LaunchScreen.storyboard */; };
 		77082A28213F8C81007FE0FD /* TurnTABleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77082A27213F8C81007FE0FD /* TurnTABleTests.swift */; };
 		77082A33213F8C81007FE0FD /* TurnTABleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77082A32213F8C81007FE0FD /* TurnTABleUITests.swift */; };
+		77082A41213F9161007FE0FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77082A40213F9161007FE0FD /* GoogleService-Info.plist */; };
+		77082A42213F9161007FE0FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77082A40213F9161007FE0FD /* GoogleService-Info.plist */; };
+		77082A43213F9161007FE0FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77082A40213F9161007FE0FD /* GoogleService-Info.plist */; };
+		7977BE32B764EA8B9982A0CD /* Pods_TurnTABleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885D05941E8AE9B79139D3C7 /* Pods_TurnTABleTests.framework */; };
+		90851F3BEF831AB7CC34A469 /* Pods_TurnTABleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337F1CD25A6BC10562EA6176 /* Pods_TurnTABleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		337F1CD25A6BC10562EA6176 /* Pods_TurnTABleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurnTABleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB94A180F3E6D45EC20CD62 /* Pods-TurnTABleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnTABleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurnTABleUITests/Pods-TurnTABleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5BE406A6EAE99A05B5E666C9 /* Pods-TurnTABleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnTABleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurnTABleTests/Pods-TurnTABleTests.release.xcconfig"; sourceTree = "<group>"; };
 		77082A0F213F8C7F007FE0FD /* TurnTABle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TurnTABle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77082A12213F8C7F007FE0FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77082A14213F8C7F007FE0FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		77082A2E213F8C81007FE0FD /* TurnTABleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnTABleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77082A32213F8C81007FE0FD /* TurnTABleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnTABleUITests.swift; sourceTree = "<group>"; };
 		77082A34213F8C81007FE0FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77082A40213F9161007FE0FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		885D05941E8AE9B79139D3C7 /* Pods_TurnTABleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurnTABleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F2A8D9507254B43DE6F924 /* Pods-TurnTABle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnTABle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurnTABle/Pods-TurnTABle.debug.xcconfig"; sourceTree = "<group>"; };
+		CACA394E69923242492CAECE /* Pods-TurnTABle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnTABle.release.xcconfig"; path = "Pods/Target Support Files/Pods-TurnTABle/Pods-TurnTABle.release.xcconfig"; sourceTree = "<group>"; };
+		E1EAD5576621C1672E2A55AD /* Pods-TurnTABleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnTABleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurnTABleUITests/Pods-TurnTABleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E667B6DF32D237E3E64640A6 /* Pods-TurnTABleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TurnTABleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TurnTABleTests/Pods-TurnTABleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C09569E9204A9B644C94AB /* Pods_TurnTABle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurnTABle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E6E7CC8BFDD5A84BE4DB8E /* Pods_TurnTABle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7977BE32B764EA8B9982A0CD /* Pods_TurnTABleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90851F3BEF831AB7CC34A469 /* Pods_TurnTABleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26D6733A40B36C3B84AF4644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3F2A8D9507254B43DE6F924 /* Pods-TurnTABle.debug.xcconfig */,
+				CACA394E69923242492CAECE /* Pods-TurnTABle.release.xcconfig */,
+				E667B6DF32D237E3E64640A6 /* Pods-TurnTABleTests.debug.xcconfig */,
+				5BE406A6EAE99A05B5E666C9 /* Pods-TurnTABleTests.release.xcconfig */,
+				E1EAD5576621C1672E2A55AD /* Pods-TurnTABleUITests.debug.xcconfig */,
+				4AB94A180F3E6D45EC20CD62 /* Pods-TurnTABleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65717CE092E84DA72EF0C4CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C09569E9204A9B644C94AB /* Pods_TurnTABle.framework */,
+				885D05941E8AE9B79139D3C7 /* Pods_TurnTABleTests.framework */,
+				337F1CD25A6BC10562EA6176 /* Pods_TurnTABleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		77082A06213F8C7F007FE0FD = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +123,8 @@
 				77082A26213F8C81007FE0FD /* TurnTABleTests */,
 				77082A31213F8C81007FE0FD /* TurnTABleUITests */,
 				77082A10213F8C7F007FE0FD /* Products */,
+				26D6733A40B36C3B84AF4644 /* Pods */,
+				65717CE092E84DA72EF0C4CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +141,7 @@
 		77082A11213F8C7F007FE0FD /* TurnTABle */ = {
 			isa = PBXGroup;
 			children = (
+				77082A40213F9161007FE0FD /* GoogleService-Info.plist */,
 				77082A12213F8C7F007FE0FD /* AppDelegate.swift */,
 				77082A14213F8C7F007FE0FD /* ViewController.swift */,
 				77082A16213F8C7F007FE0FD /* Main.storyboard */,
@@ -132,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77082A37213F8C81007FE0FD /* Build configuration list for PBXNativeTarget "TurnTABle" */;
 			buildPhases = (
+				DDC5B749E3E0466AB73E2F8F /* [CP] Check Pods Manifest.lock */,
 				77082A0B213F8C7F007FE0FD /* Sources */,
 				77082A0C213F8C7F007FE0FD /* Frameworks */,
 				77082A0D213F8C7F007FE0FD /* Resources */,
+				478418636ACD09A98BF05CB5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77082A3A213F8C81007FE0FD /* Build configuration list for PBXNativeTarget "TurnTABleTests" */;
 			buildPhases = (
+				33079B47FFB14DA3BFBE9EE6 /* [CP] Check Pods Manifest.lock */,
 				77082A1F213F8C81007FE0FD /* Sources */,
 				77082A20213F8C81007FE0FD /* Frameworks */,
 				77082A21213F8C81007FE0FD /* Resources */,
@@ -167,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77082A3D213F8C81007FE0FD /* Build configuration list for PBXNativeTarget "TurnTABleUITests" */;
 			buildPhases = (
+				B57737658AD29A9AF0DB5517 /* [CP] Check Pods Manifest.lock */,
 				77082A2A213F8C81007FE0FD /* Sources */,
 				77082A2B213F8C81007FE0FD /* Frameworks */,
 				77082A2C213F8C81007FE0FD /* Resources */,
@@ -230,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77082A1D213F8C81007FE0FD /* LaunchScreen.storyboard in Resources */,
+				77082A41213F9161007FE0FD /* GoogleService-Info.plist in Resources */,
 				77082A1A213F8C81007FE0FD /* Assets.xcassets in Resources */,
 				77082A18213F8C7F007FE0FD /* Main.storyboard in Resources */,
 			);
@@ -239,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77082A42213F9161007FE0FD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +297,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77082A43213F9161007FE0FD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33079B47FFB14DA3BFBE9EE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurnTABleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		478418636ACD09A98BF05CB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TurnTABle/Pods-TurnTABle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TurnTABle/Pods-TurnTABle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B57737658AD29A9AF0DB5517 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurnTABleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDC5B749E3E0466AB73E2F8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TurnTABle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77082A0B213F8C7F007FE0FD /* Sources */ = {
@@ -428,6 +557,7 @@
 		};
 		77082A38213F8C81007FE0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3F2A8D9507254B43DE6F924 /* Pods-TurnTABle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +576,7 @@
 		};
 		77082A39213F8C81007FE0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACA394E69923242492CAECE /* Pods-TurnTABle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +595,7 @@
 		};
 		77082A3B213F8C81007FE0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E667B6DF32D237E3E64640A6 /* Pods-TurnTABleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +617,7 @@
 		};
 		77082A3C213F8C81007FE0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE406A6EAE99A05B5E666C9 /* Pods-TurnTABleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +639,7 @@
 		};
 		77082A3E213F8C81007FE0FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EAD5576621C1672E2A55AD /* Pods-TurnTABleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +660,7 @@
 		};
 		77082A3F213F8C81007FE0FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB94A180F3E6D45EC20CD62 /* Pods-TurnTABleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
